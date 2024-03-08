@@ -9,14 +9,31 @@
 
 
     if((($_eu === "pedra") && ($_inimigo === "papel"))||(($_eu === "papel") && ($_inimigo === "tesoura"))||(($_eu === "tesoura") && ($_inimigo === "pedra"))) {
-        echo "Eu: $_eu, Inimigo: $_inimigo, EU PERCO"; //conição caso eu perca
+        echo "Eu: $_eu, Inimigo: $_inimigo, <p class='perder'>EU PERCO</p>"; //conição caso eu perca
     } elseif ((($_eu === "pedra") && ($_inimigo === "tesoura"))||(($_eu === "papel") && ($_inimigo === "pedra"))||(($_eu === "tesoura") && ($_inimigo === "papel"))) {
-        echo "Eu: $_eu, Inimigo: $_inimigo, EU GANHO"; //condicao caso eu ganhe
+        echo "Eu: $_eu, Inimigo: $_inimigo, <p class='ganhar'>EU GANHO</p>"; //condicao caso eu ganhe
     } else {
-        echo "Eu: $_eu, Inimigo: $_inimigo, EMPATE"; //consicao caso de empate
+        echo "Eu: $_eu, Inimigo: $_inimigo,<p class='empate'> EMPATE</p>"; //consicao caso de empate
     }
 
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="POST">
+        <button>VOLTAR</button>
+    </form>
+    
+</body>
+</html>
 
 
 

@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perder {
+    color: red;
+}
+
+.ganhar {
+    color: green;
+}
+
+.empate {
+    color: orange;
+}
