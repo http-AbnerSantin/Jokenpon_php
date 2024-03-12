@@ -8,13 +8,15 @@
 </head>
 <body>
     <form action="processar.php" method="post">
-        <select name="botao" id="teste">
-            <option value="tesoura">Tesoura</option>
-            <option value="pedra">Pedra</option>
-            <option value="papel">Papel</option>
-        </select>
+        <input type="radio" id="pedra" name="botao" value="pedra">
+        <label for="pedra">Pedra</label>
+        <input type="radio" id="papel" name="botao" value="papel">
+        <label for="papel">Papel</label>
+        <input type="radio" id="tesoura" name="botao" value="tesoura">
+        <label for="tesoura">Tesoura</label>
         <button type="submit">Enviar</button>
     </form>
+    
     
 </body>
 </html>
