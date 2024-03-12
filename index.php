@@ -7,6 +7,10 @@
     <title>Exemplo</title>
 </head>
 <body>
+    <div>
+        <h1>JOKENPON</h1>
+    </div>
+    <div>
     <form action="processar.php" method="post">
         <input type="radio" id="pedra" name="botao" value="pedra">
         <label for="pedra">Pedra</label>
@@ -16,8 +20,8 @@
         <label for="tesoura">Tesoura</label>
         <button type="submit">Enviar</button>
     </form>
-    
-    
+    </div>
+
 </body>
 </html>
 

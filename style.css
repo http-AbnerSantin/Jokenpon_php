@@ -1,14 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial;
 
 }
 
 body{
     display: flex;
+    gap: 20px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
+
 }
 
 .perder {
@@ -21,4 +25,38 @@ body{
 
 .empate {
     color: orange;
+}
+
+img {
+    max-width: 100px;
+}
+
+.insira {
+    color: red;
+}
+.divisao {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+button {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: none;
+    background: rgb(51, 89, 243);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background: rgb(20, 65, 245);
 }
